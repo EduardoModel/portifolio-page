@@ -1,0 +1,61 @@
+.menu__div-open{
+    position: fixed;
+    margin-left: -10px;
+    margin-top: -68px;
+    background-color:lightblue;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 180px;
+    transition: 0.45s;
+    z-index: -1;
+}
+
+.menu__div-close{
+    position: fixed;
+    margin-left: -300px;
+    margin-top: -300px;
+    background-color:lightblue;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 180px;
+    transition: 0.45s;
+    z-index: 0;
+}
+
+.ul__options {
+    margin-top: -25rem;
+}
+
+.ul__languages {
+    justify-content: center;
+    display: flex;
+    margin-left: -175px;
+    margin-top: 60rem;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 150%;
+    padding-right: 25px;
+    
+}
+
+li {
+    list-style-type: none;
+    align-items: center;
+    margin-top: 50%;
+    text-align: center;
+}
+
+button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 85%;
+    cursor: pointer;
+}
